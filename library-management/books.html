@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Books | LibraryPro</title>
+
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+      <div class="logo">
+        <i class="fa-solid fa-book-open"></i>
+
+        LibraryPro
+      </div>
+
+      <div class="search-box">
+        <input type="text" placeholder="Search by title, author..." />
+
+        <button>
+          <i class="fa-solid fa-search"></i>
+        </button>
+      </div>
+
+      <ul class="nav-links">
+        <li>
+          <a href="index.html"> Home </a>
+        </li>
+
+        <li>
+          <a href="books.html"> Books </a>
+        </li>
+
+        <li>
+          <a href="wishlist.html"> Wishlist </a>
+        </li>
+
+        <li>
+          <a href="profile.html"> Profile </a>
+        </li>
+        <li><a href="login.html" class="login-btn">
+                Login
+            </a></li>
+      </ul>
+    </nav>
+
+    <!-- HEADER -->
+
+    <section class="page-header">
+      <h1>Explore Books</h1>
+
+      <p>Find your favorite books from our collection</p>
+    </section>
+
+    <!-- FILTER -->
+
+    <section class="filter-area">
+      <div>
+        <h3>Categories</h3>
+
+        <button>Programming</button>
+
+        <button>Science</button>
+
+        <button>Novel</button>
+
+        <button>Business</button>
+      </div>
+
+      <div>
+        <h3>Sort By</h3>
+
+        <select>
+          <option>Popular</option>
+
+          <option>Newest</option>
+
+          <option>Highest Rating</option>
+        </select>
+      </div>
+    </section>
+
+    <!-- BOOK GRID -->
+
+    <section class="books-section">
+      <div class="premium-book-card">
+        <img
+          src="https://images.unsplash.com/photo-1541963463532-d68292c34b19?q=80&w=1200"
+        />
+
+        <div class="premium-book-content">
+          <span> Programming </span>
+
+          <h2>HTML Complete Guide</h2>
+
+          <p>Author: John Smith</p>
+
+          <div class="book-rating">
+            ⭐ 4.8 (World)
+
+            <br />
+
+            🇧🇩 4.7 (National)
+          </div>
+
+          <div class="price">
+            Borrow:
+
+            <strong> ৳20/day </strong>
+          </div>
+
+          <div class="card-buttons">
+            <a href="book-details.html" class="btn"> Details </a>
+
+            <a href="borrow.html" class="btn borrow"> Borrow </a>
+
+            <button class="wish-btn">♡</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="premium-book-card">
+        <img
+          src="https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=1200"
+        />
+
+        <div class="premium-book-content">
+          <span> Web Design </span>
+
+          <h2>CSS Mastery</h2>
+
+          <p>Author: Sarah Lee</p>
+
+          <div class="book-rating">
+            ⭐ 4.9
+
+            <br />
+
+            🇧🇩 4.8
+          </div>
+
+          <div class="price">
+            Buy:
+
+            <strong> ৳550 </strong>
+          </div>
+
+          <div class="card-buttons">
+            <a href="book-details.html" class="btn"> Details </a>
+
+            <a href="checkout.html" class="btn borrow"> Buy </a>
+
+            <button class="wish-btn">♡</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="premium-book-card">
+        <img
+          src="https://images.unsplash.com/photo-1495446815901-a7297e633e8d?q=80&w=1200"
+        />
+
+        <div class="premium-book-content">
+          <span> Programming </span>
+
+          <h2>JavaScript Pro</h2>
+
+          <p>Author: Michael Lee</p>
+
+          <div class="book-rating">
+            ⭐ 4.7
+
+            <br />
+
+            🇧🇩 4.6
+          </div>
+
+          <div class="price">
+            Borrow:
+
+            <strong> ৳25/day </strong>
+          </div>
+
+          <div class="card-buttons">
+            <a href="book-details.html" class="btn"> Details </a>
+
+            <a href="borrow.html" class="btn borrow"> Borrow </a>
+
+            <button class="wish-btn">♡</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <div class="footer-grid">
+        <div>
+          <h3>LibraryPro</h3>
+
+          <p>Premium Digital Library</p>
+        </div>
+      </div>
+
+      <div class="copyright">© 2026 LibraryPro</div>
+    </footer>
+  </body>
+</html>

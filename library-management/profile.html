@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>My Profile | LibraryPro</title>
+
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+      <div class="logo">
+        <i class="fa-solid fa-book-open"></i>
+
+        LibraryPro
+      </div>
+
+      <div class="search-box">
+        <input type="text" placeholder="Search books..." />
+
+        <button>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+
+      <ul class="nav-links">
+        <li>
+          <a href="index.html"> Home </a>
+        </li>
+
+        <li>
+          <a href="books.html"> Books </a>
+        </li>
+
+        <li>
+          <a href="cart.html"> Cart </a>
+        </li>
+
+        <li>
+          <a href="contact.html"> Contact </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- PROFILE HEADER -->
+
+    <section class="profile-header">
+      <div class="profile-card">
+        <img
+          src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=400"
+        />
+
+        <h2>Alex Johnson</h2>
+
+        <p>Student Member</p>
+
+        <button class="btn">Edit Profile</button>
+      </div>
+    </section>
+
+    <!-- PROFILE DETAILS -->
+
+    <section class="profile-section">
+      <div class="profile-info">
+        <h2>Personal Information</h2>
+
+        <div class="info-row">
+          <span> Full Name </span>
+
+          <strong> Alex Johnson </strong>
+        </div>
+
+        <div class="info-row">
+          <span> Email </span>
+
+          <strong> alex@gmail.com </strong>
+        </div>
+
+        <div class="info-row">
+          <span> Phone </span>
+
+          <strong> 017XXXXXXXX </strong>
+        </div>
+
+        <div class="info-row">
+          <span> Student ID </span>
+
+          <strong> LIB20260021 </strong>
+        </div>
+      </div>
+
+      <!-- STATS -->
+
+      <div class="profile-stats">
+        <div>
+          <i class="fa-solid fa-book"></i>
+
+          <h3>12</h3>
+
+          <p>Borrowed Books</p>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-clock"></i>
+
+          <h3>2</h3>
+
+          <p>Active Borrow</p>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-money-bill"></i>
+
+          <h3>৳0</h3>
+
+          <p>Fine Due</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CURRENT BORROW -->
+
+    <section class="section">
+      <h2 class="section-title">Currently Borrowed Books</h2>
+
+      <div class="borrow-history">
+        <div class="history-card">
+          <img
+            src="https://images.unsplash.com/photo-1541963463532-d68292c34b19?q=80&w=1200"
+          />
+
+          <div>
+            <h3>HTML Complete Guide</h3>
+
+            <p>Borrow Date: 01 June 2026</p>
+
+            <p>Return Date: 08 June 2026</p>
+
+            <span class="status"> Active </span>
+          </div>
+        </div>
+
+        <div class="history-card">
+          <img
+            src="https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=1200"
+          />
+
+          <div>
+            <h3>Mastering CSS</h3>
+
+            <p>Borrow Date: 05 June 2026</p>
+
+            <p>Return Date: 20 June 2026</p>
+
+            <span class="late"> Due Soon </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAVORITE BOOKS -->
+
+    <section class="section">
+      <h2 class="section-title">Favorite Books</h2>
+
+      <div class="book-grid">
+        <div class="book-card">
+          <img
+            src="https://images.unsplash.com/photo-1495446815901-a7297e633e8d?q=80&w=1200"
+          />
+
+          <div class="book-content">
+            <h3>JavaScript Pro</h3>
+
+            <a href="book-details.html" class="btn"> View </a>
+          </div>
+        </div>
+
+        <div class="book-card">
+          <img
+            src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?q=80&w=1200"
+          />
+
+          <div class="book-content">
+            <h3>AI Revolution</h3>
+
+            <a href="book-details.html" class="btn"> View </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <div class="footer-grid">
+        <div>
+          <h3>LibraryPro</h3>
+
+          <p>Premium Digital Library Platform</p>
+        </div>
+
+        <div>
+          <h3>Links</h3>
+
+          <a href="books.html"> Books </a>
+
+          <a href="contact.html"> Contact </a>
+        </div>
+      </div>
+
+      <div class="copyright">© 2026 LibraryPro</div>
+    </footer>
+  </body>
+</html>

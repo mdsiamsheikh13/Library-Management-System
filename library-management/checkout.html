@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Checkout | LibraryPro</title>
+
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+      <div class="logo">
+        <i class="fa-solid fa-book-open"></i>
+
+        LibraryPro
+      </div>
+
+      <div class="search-box">
+        <input type="text" placeholder="Search books..." />
+
+        <button>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+
+      <ul class="nav-links">
+        <li>
+          <a href="index.html"> Home </a>
+        </li>
+
+        <li>
+          <a href="books.html"> Books </a>
+        </li>
+
+        <li>
+          <a href="cart.html"> Cart </a>
+        </li>
+
+        <li>
+          <a href="contact.html"> Contact </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- HEADER -->
+
+    <section class="page-header">
+      <h1>Checkout</h1>
+
+      <p>Complete your order securely</p>
+    </section>
+
+    <!-- CHECKOUT AREA -->
+
+    <section class="checkout-section">
+      <!-- LEFT FORM -->
+
+      <div class="checkout-form">
+        <h2>Delivery Information</h2>
+
+        <div class="input-row">
+          <input type="text" placeholder="Full Name" />
+
+          <input type="email" placeholder="Email Address" />
+        </div>
+
+        <div class="input-row">
+          <input type="text" placeholder="Phone Number" />
+
+          <input type="text" placeholder="City" />
+        </div>
+
+        <textarea placeholder="Full Delivery Address"></textarea>
+
+        <h2>Delivery Method</h2>
+
+        <div class="delivery-options">
+          <label>
+            <input type="radio" name="delivery" />
+
+            Library Pickup
+          </label>
+
+          <label>
+            <input type="radio" name="delivery" />
+
+            Home Delivery (48-72 Hours)
+          </label>
+        </div>
+
+        <h2>Payment Method</h2>
+
+        <div class="payment-options">
+          <div class="payment-card">
+            <i class="fa-solid fa-mobile-screen"></i>
+
+            <h3>bKash</h3>
+
+            <p>Mobile Payment</p>
+          </div>
+
+          <div class="payment-card">
+            <i class="fa-solid fa-wallet"></i>
+
+            <h3>Nagad</h3>
+
+            <p>Mobile Payment</p>
+          </div>
+
+          <div class="payment-card">
+            <i class="fa-solid fa-credit-card"></i>
+
+            <h3>Card</h3>
+
+            <p>Visa / MasterCard</p>
+          </div>
+
+          <div class="payment-card">
+            <i class="fa-solid fa-money-bill"></i>
+
+            <h3>Cash On Delivery</h3>
+
+            <p>Pay After Delivery</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT SUMMARY -->
+
+      <div class="checkout-summary">
+        <h2>Order Summary</h2>
+
+        <div class="checkout-book">
+          <img
+            src="https://images.unsplash.com/photo-1541963463532-d68292c34b19?q=80&w=1200"
+          />
+
+          <div>
+            <h3>HTML Complete Guide</h3>
+
+            <p>Borrow - 7 Days</p>
+          </div>
+        </div>
+
+        <div class="checkout-row">
+          <span> Book Price </span>
+
+          <strong> ৳40 </strong>
+        </div>
+
+        <div class="checkout-row">
+          <span> Delivery Fee </span>
+
+          <strong> ৳30 </strong>
+        </div>
+
+        <div class="checkout-row">
+          <span> Service Charge </span>
+
+          <strong> ৳10 </strong>
+        </div>
+
+        <hr />
+
+        <div class="checkout-total">
+          <span> Total </span>
+
+          <strong> ৳80 </strong>
+        </div>
+
+        <button class="btn confirm-btn">Confirm Order</button>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <div class="footer-grid">
+        <div>
+          <h3>LibraryPro</h3>
+
+          <p>Smart Digital Library Platform</p>
+        </div>
+
+        <div>
+          <h3>Support</h3>
+
+          <a href="#"> FAQ </a>
+
+          <a href="#"> Help Center </a>
+        </div>
+      </div>
+
+      <div class="copyright">© 2026 LibraryPro</div>
+    </footer>
+  </body>
+</html>

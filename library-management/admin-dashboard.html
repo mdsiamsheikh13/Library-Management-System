@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Admin Dashboard | LibraryPro</title>
+
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="admin-layout">
+      <!-- SIDEBAR -->
+
+      <aside class="admin-sidebar">
+        <div class="admin-logo">
+          <i class="fa-solid fa-book-open"></i>
+
+          LibraryPro
+        </div>
+
+        <ul>
+          <li class="active">
+            <i class="fa-solid fa-chart-line"></i>
+
+            Dashboard
+          </li>
+
+          <li>
+            <i class="fa-solid fa-book"></i>
+
+            Books
+          </li>
+
+          <li>
+            <i class="fa-solid fa-users"></i>
+
+            Users
+          </li>
+
+          <li>
+            <i class="fa-solid fa-handshake"></i>
+
+            Borrow Requests
+          </li>
+
+          <li>
+            <i class="fa-solid fa-truck"></i>
+
+            Delivery
+          </li>
+
+          <li>
+            <i class="fa-solid fa-gear"></i>
+
+            Settings
+          </li>
+        </ul>
+      </aside>
+
+      <!-- MAIN AREA -->
+
+      <main class="admin-main">
+        <header class="admin-header">
+          <h1>Dashboard</h1>
+
+          <div>
+            <i class="fa-solid fa-bell"></i>
+
+            <img
+              src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200"
+            />
+          </div>
+        </header>
+
+        <!-- STAT CARDS -->
+
+        <section class="admin-stats">
+          <div class="admin-stat-card">
+            <i class="fa-solid fa-book"></i>
+
+            <h2>12000+</h2>
+
+            <p>Total Books</p>
+          </div>
+
+          <div class="admin-stat-card">
+            <i class="fa-solid fa-users"></i>
+
+            <h2>50000+</h2>
+
+            <p>Registered Users</p>
+          </div>
+
+          <div class="admin-stat-card">
+            <i class="fa-solid fa-book-reader"></i>
+
+            <h2>3500</h2>
+
+            <p>Active Borrow</p>
+          </div>
+
+          <div class="admin-stat-card">
+            <i class="fa-solid fa-money-bill"></i>
+
+            <h2>৳250K</h2>
+
+            <p>Monthly Revenue</p>
+          </div>
+        </section>
+
+        <!-- TABLE -->
+
+        <section class="admin-table-box">
+          <div class="table-header">
+            <h2>Borrow Requests</h2>
+
+            <button class="btn">Add New Book</button>
+          </div>
+
+          <table>
+            <tr>
+              <th>User</th>
+
+              <th>Book</th>
+
+              <th>Method</th>
+
+              <th>Status</th>
+            </tr>
+
+            <tr>
+              <td>Alex Johnson</td>
+
+              <td>HTML Complete Guide</td>
+
+              <td>Home Delivery</td>
+
+              <td>
+                <span class="approved"> Approved </span>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Sarah Lee</td>
+
+              <td>Python Basics</td>
+
+              <td>Library Pickup</td>
+
+              <td>
+                <span class="pending"> Pending </span>
+              </td>
+            </tr>
+          </table>
+        </section>
+
+        <!-- DELIVERY -->
+
+        <section class="delivery-box">
+          <h2>Delivery Tracking</h2>
+
+          <div class="delivery-item">
+            <i class="fa-solid fa-box"></i>
+
+            <div>
+              <h3>Order #LP202601</h3>
+
+              <p>Out for delivery</p>
+            </div>
+
+            <span> 48 hrs </span>
+          </div>
+
+          <div class="delivery-item">
+            <i class="fa-solid fa-box"></i>
+
+            <div>
+              <h3>Order #LP202602</h3>
+
+              <p>Delivered</p>
+            </div>
+
+            <span> Completed </span>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

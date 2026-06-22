@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Borrow Book | LibraryPro</title>
+
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+      <div class="logo">
+        <i class="fa-solid fa-book-open"></i>
+
+        LibraryPro
+      </div>
+
+      <div class="search-box">
+        <input type="text" placeholder="Search books..." />
+
+        <button>
+          <i class="fa-solid fa-search"></i>
+        </button>
+      </div>
+
+      <ul class="nav-links">
+        <li>
+          <a href="index.html"> Home </a>
+        </li>
+
+        <li>
+          <a href="books.html"> Books </a>
+        </li>
+
+        <li>
+          <a href="profile.html"> Profile </a>
+        </li>
+
+        <li>
+          <a href="contact.html"> Contact </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- HEADER -->
+
+    <section class="page-header">
+      <h1>Borrow Your Book</h1>
+
+      <p>Choose your preferred borrowing method</p>
+    </section>
+
+    <section class="borrow-container">
+      <!-- BOOK INFO -->
+
+      <div class="borrow-book">
+        <img
+          src="https://images.unsplash.com/photo-1541963463532-d68292c34b19?q=80&w=1200"
+        />
+
+        <div>
+          <h2>HTML Complete Guide</h2>
+
+          <p>Author: John Smith</p>
+
+          <p>
+            Borrow Rate:
+
+            <strong> ৳20/day </strong>
+          </p>
+        </div>
+      </div>
+
+      <!-- OPTION SELECT -->
+
+      <div class="borrow-options">
+        <h2>Select Borrow Method</h2>
+
+        <div class="option-card">
+          <input type="radio" name="method" />
+
+          <div>
+            <i class="fa-solid fa-building"></i>
+
+            <h3>Library Pickup</h3>
+
+            <p>Collect book directly from library</p>
+          </div>
+        </div>
+
+        <div class="option-card">
+          <input type="radio" name="method" />
+
+          <div>
+            <i class="fa-solid fa-truck"></i>
+
+            <h3>Home Delivery</h3>
+
+            <p>Receive book within 48-72 hours</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- LIBRARY PICKUP -->
+
+      <div class="borrow-box">
+        <h2>Library Pickup System</h2>
+
+        <p>Your pickup serial number will be generated after confirmation.</p>
+
+        <div class="serial-box">
+          <h1>LP-2026-00852</h1>
+
+          <p>Show this serial number at library counter</p>
+        </div>
+
+        <div class="pickup-time">
+          <i class="fa-solid fa-calendar"></i>
+
+          Pickup Date: 22 June 2026
+
+          <br /><br />
+
+          <i class="fa-solid fa-clock"></i>
+
+          Time: 10:00 AM - 5:00 PM
+        </div>
+      </div>
+
+      <!-- DELIVERY -->
+
+      <div class="borrow-box">
+        <h2>Home Delivery</h2>
+
+        <input type="text" placeholder="Full Delivery Address" />
+
+        <div class="delivery-time">
+          <i class="fa-solid fa-truck-fast"></i>
+
+          Expected Delivery:
+
+          <strong> 48-72 Hours </strong>
+        </div>
+
+        <div class="otp-box">
+          <h3>Enter Delivery OTP</h3>
+
+          <input type="text" placeholder="Enter 6 digit OTP" />
+
+          <p>OTP will be provided by delivery person</p>
+        </div>
+      </div>
+
+      <!-- COST -->
+
+      <div class="cost-box">
+        <h2>Borrow Summary</h2>
+
+        <div>
+          <span> Borrow Duration </span>
+
+          <strong> 7 Days </strong>
+        </div>
+
+        <div>
+          <span> Book Charge </span>
+
+          <strong> ৳140 </strong>
+        </div>
+
+        <div>
+          <span> Delivery Charge </span>
+
+          <strong> ৳30 </strong>
+        </div>
+
+        <hr />
+
+        <div class="total">
+          <span> Total </span>
+
+          <strong> ৳170 </strong>
+        </div>
+
+        <button class="btn">Confirm Borrow</button>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-grid">
+        <div>
+          <h3>LibraryPro</h3>
+
+          <p>Smart Digital Library Management System</p>
+        </div>
+      </div>
+
+      <div class="copyright">© 2026 LibraryPro</div>
+    </footer>
+  </body>
+</html>

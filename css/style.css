@@ -2471,6 +2471,14 @@ width:350px;
 
 box-shadow:var(--shadow);
 
+display: flex;
+
+flex-direction: column;
+
+align-items: center;
+
+row-gap: 4px;
+
 }
 
 
@@ -2488,10 +2496,20 @@ object-fit:cover;
 
 margin-bottom:20px;
 
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+
 }
 
 
-
+.img{
+    position: relative;
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    background-color: rgb(91, 91, 219);
+    padding: 3px;
+    margin-bottom: 10px;
+}
 
 
 .profile-section{

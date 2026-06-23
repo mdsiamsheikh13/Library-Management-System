@@ -888,6 +888,12 @@ background:#f1f5f9;
 
 font-size:25px;
 
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
 
 }
 
